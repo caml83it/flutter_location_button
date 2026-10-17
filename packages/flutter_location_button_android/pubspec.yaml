@@ -1,18 +1,17 @@
 name: flutter_location_button_android
 description: Android implementation of the flutter_location_button plugin.
-version: 0.0.1
-homepage: https://github.com/example/flutter_location_button
-publish_to: none
+version: 0.1.0
+homepage: https://github.com/caml83it/flutter_location_button
+repository: https://github.com/caml83it/flutter_location_button/tree/main/packages/flutter_location_button_android
 
 environment:
-  sdk: ^3.13.1
+  sdk: ^3.13.0
   flutter: '>=3.3.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_location_button_platform_interface:
-    path: ../flutter_location_button_platform_interface
+  flutter_location_button_platform_interface: ^0.1.0
 
 dev_dependencies:
   flutter_test:

@@ -65,17 +65,19 @@ packages:
   flutter_location_button_android:
     dependency: "direct main"
     description:
-      path: "../flutter_location_button_android"
-      relative: true
-    source: path
-    version: "0.0.1"
+      name: flutter_location_button_android
+      sha256: "88a729207d59eaab7fe7e97951ab61d5e8c9a25dffa4b554f3ede0d562a650d4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   flutter_location_button_platform_interface:
     dependency: "direct main"
     description:
-      path: "../flutter_location_button_platform_interface"
-      relative: true
-    source: path
-    version: "0.0.1"
+      name: flutter_location_button_platform_interface
+      sha256: b32417fe077c0f1b37b2194366126184d716aee1d3c38c36ee6f9a7f5bafa000
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -223,5 +225,5 @@ packages:
     source: hosted
     version: "15.4.0"
 sdks:
-  dart: ">=3.13.1 <4.0.0"
+  dart: ">=3.13.0 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"

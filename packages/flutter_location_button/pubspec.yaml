@@ -1,19 +1,17 @@
-name: flutter_location_button
+name: location_button
 description: "A Flutter plugin for system-trusted location button."
-version: 0.0.1
-homepage: https://github.com/example/flutter_location_button
+version: 0.1.1
+homepage: https://github.com/caml83it/flutter_location_button
 
 environment:
-  sdk: ^3.13.1
+  sdk: ^3.13.0
   flutter: '>=3.3.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_location_button_platform_interface:
-    path: ../flutter_location_button_platform_interface
-  flutter_location_button_android:
-    path: ../flutter_location_button_android
+  flutter_location_button_platform_interface: ^0.1.0
+  flutter_location_button_android: ^0.1.0
 
 dev_dependencies:
   flutter_test:
