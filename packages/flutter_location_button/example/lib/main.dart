@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_location_button/flutter_location_button.dart';
+import 'package:location_button/location_button.dart';
 
 void main() {
   runApp(const MyApp());

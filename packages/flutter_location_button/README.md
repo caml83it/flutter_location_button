@@ -1,4 +1,4 @@
-# flutter_location_button
+# location_button
 
 A Flutter plugin providing system-trusted location buttons:
 * **Android 17+**: Native system-rendered `LocationButton` (`androidx.core.locationbutton`) that grants session-scoped precise location permission with zero dialog friction.
@@ -8,17 +8,17 @@ A Flutter plugin providing system-trusted location buttons:
 
 ## Installation
 
-Add `flutter_location_button` to your `pubspec.yaml` by running:
+Add `location_button` to your `pubspec.yaml` by running:
 
 ```bash
-flutter pub add flutter_location_button
+flutter pub add location_button
 ```
 
 Or add it directly to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_location_button: ^0.1.0
+  location_button: ^0.1.0
 ```
 
 ---
@@ -55,7 +55,7 @@ In your `android/app/src/main/AndroidManifest.xml`, add the required location pe
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_location_button/flutter_location_button.dart';
+import 'package:location_button/location_button.dart';
 
 class MyLocationWidget extends StatefulWidget {
   const MyLocationWidget({super.key});
